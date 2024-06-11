@@ -117,18 +117,42 @@
 # ty = person("BOSCO", 45)
 # print(ty.name)
 # print(ty.age)
-import random
-print(random.randrange(45,100))
-mymodule = {
-     "name": "John",
-     "age": 36,
-     "country": "Norway"
-}
-import platform
-x = dir(platform)
-print(x)
-import datetime
-h = datetime.datetime.now()
-print(h.year)
-print(h.strftime("%w"))
-print(h.strftime("%H"))
+# import random
+# print(random.randrange(45,100))
+# mymodule = {
+#      "name": "John",
+#      "age": 36,
+#      "country": "Norway"
+# }
+# import platform
+# x = dir(platform)
+# print(x)
+# import datetime
+# h = datetime.datetime.now()
+# print(h.year)
+# print(h.strftime("%w"))
+# print(h.strftime("%H"))
+# import math
+# x = math.sqrt(36)
+# y = math.cos(180)
+# print(y)
+# print(x)
+# import json
+# x = { "name":"John", "age":30, "city":"New York"}
+# y = json.dumps(x)
+# print(y)
+# import re
+# f ="nuwagaba@gmail.com"
+# l = re.findall("@", f)
+# print(l)
+f=open("C:\\plp\demo.txt", "r")
+for i in f:
+    print(i)
+g = open("demo.txt", "a")
+g.write("be close to people")
+g.close()
+g = open("demo.txt", "r")
+print(g.read())
+a = 67
+g = 87
+print(a+g)
